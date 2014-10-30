@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:padding="0dp"
+    android:background="#ff000000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewBg"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:src="@drawable/indecente_bg"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageViewBarattolo"
+        android:layout_gravity="bottom|left"
+        android:background="@drawable/indecente_render_bg"
+        android:src="@drawable/indecente_render"
+        android:scaleType="fitStart" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/indecente_title_size"
+        android:id="@+id/imageViewTitle"
+        android:layout_gravity="right|top"
+        android:background="@android:color/transparent"
+        android:src="@drawable/indecente_text"
+        android:scaleType="fitEnd"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:baselineAligned="false"
+        android:gravity="right"
+        android:id="@+id/menuGroup"
+        android:layout_marginTop="@dimen/indecente_menu_top_margin">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copione"
+            android:id="@+id/buttonCopione"
+            android:textColor="#ffcc0000"
+            android:background="#ccffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cast"
+            android:id="@+id/buttonCast"
+            android:textColor="#ffcc0000"
+            android:background="#ccffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotogallery"
+            android:id="@+id/buttonGallery"
+            android:textColor="#ffcc0000"
+            android:background="#ccffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date &amp; eventi"
+            android:id="@+id/buttonNews"
+            android:textColor="#ffcc0000"
+            android:background="#ccffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guarda il trailer"
+            android:id="@+id/buttonTrailer"
+            android:textColor="#ffcc0000"
+            android:background="#ccffffff"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gioca!"
+        android:id="@+id/buttonPlay"
+        android:layout_gravity="left|center_vertical"
+        android:textColor="#ffcc0000"
+        android:background="#ccffffff"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="by Eduard Roccatello | 3DGIS"
+        android:id="@+id/textViewCredits"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#ff666666"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp" />
+
+</FrameLayout>
