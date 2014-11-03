@@ -1,4 +1,5 @@
 <resources>
     <dimen name="indecente_title_size">100dp</dimen>
     <dimen name="indecente_menu_top_margin">120dp</dimen>
+    <dimen name="indecente_menu_height">40dp</dimen>
 </resources>

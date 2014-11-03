@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="indecente_title_size">200dp</dimen>
+    <dimen name="indecente_menu_top_margin">240dp</dimen>
+    <dimen name="indecente_menu_height">44dp</dimen>
+</resources>
